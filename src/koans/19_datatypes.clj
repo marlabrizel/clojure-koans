@@ -17,7 +17,7 @@
 
 (deftype Razzie [category]
   Award
-  (present [this recipient]
+  (present [_ recipient]
     (print (str "You're really the "
                 category
                 ", "
